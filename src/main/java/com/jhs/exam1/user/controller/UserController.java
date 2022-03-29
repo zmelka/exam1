@@ -1,4 +1,4 @@
-package com.ljy.exam1.user.controller;
+package com.jhs.exam1.user.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,12 +10,13 @@ public class UserController {
     @RequestMapping("")
     @ResponseBody
     public String users() {
-        return "유저 여러명";
+        return "유저 여러명!";
     }
 
     @RequestMapping("1")
     @ResponseBody
     public String user() {
-        return "유저 한명";
+
+        return "안녕하세요 ㅎㅎㅎ";
     }
 }
